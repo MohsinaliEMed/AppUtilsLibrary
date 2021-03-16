@@ -1,5 +1,7 @@
 package com.mohsinali.appUtils
 
+import android.os.Build
+import android.text.Html
 import android.text.TextUtils
 import android.view.View
 import android.widget.LinearLayout
@@ -33,4 +35,16 @@ fun isEmptyViewGone(textView: TextView, stringValue: String, ll: LinearLayout) {
 fun isEmptyViewInvisible(textView: TextView, stringValue: String, ll: LinearLayout) {
     textView.text = if (!TextUtils.isEmpty(stringValue)) stringValue else ""
     ll.visibility = if (!TextUtils.isEmpty(stringValue)) View.VISIBLE else View.GONE
+}
+
+fun setHtmlStringToTextView(htmlString: String, textView: TextView) {
+    if (!TextUtils.isEmpty(htmlString)) {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            textView.text = Html.fromHtml(htmlString, Html.FROM_HTML_MODE_COMPACT)
+        } else {
+            textView.text = Html.fromHtml(htmlString)
+        }
+    } else {
+        textView.text = ""
+    }
 }
