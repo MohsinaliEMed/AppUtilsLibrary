@@ -34,9 +34,9 @@ AppUtilsLibrary is a fast and efficient open source. Apputilus is a library with
          maven { url 'https://jitpack.io' }
          }
 }
-
+</br>
 <span class="pl-en">dependencies</span> {
-&nbsp;implementation <span class="pl-s"><span class="pl-pds">'</span>com.github.MohsinaliEMed:AppUtilsLibrary:1.0.1<span class="pl-pds">'</span></span>
+    &nbsp;implementation <span class="pl-s"><span class="pl-pds">'</span>com.github.MohsinaliEMed:AppUtilsLibrary:1.0.1<span class="pl-pds">'</span></span>
 }</pre></div>
 
 
