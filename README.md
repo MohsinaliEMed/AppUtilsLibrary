@@ -35,6 +35,7 @@ allprojects {
         maven { url 'https://jitpack.io' }
    }
 }
+
 dependencies {
         implementation 'com.github.MohsinaliEMed:AppUtilsLibrary:Tag'
 }</pre></div>
