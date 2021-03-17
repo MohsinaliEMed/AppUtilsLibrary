@@ -6,17 +6,23 @@ import android.widget.Toast
 
 
 object LogsUtils {
-    private const val MY_LOG_TAG = "@***@***@"
+    private const val DEFAULT_LOG_TAG = "@***@***@"
 
-    fun showError(string: String) {
-        if (BuildConfig.DEBUG) {
-            Log.e(MY_LOG_TAG, string)
+    fun showError(string: String, buildType: String) {
+        if (buildType.equals("DEBUG", ignoreCase = true)) {
+            Log.e(DEFAULT_LOG_TAG, string)
         }
     }
 
-    fun showError(string: Int) {
-        if (BuildConfig.DEBUG) {
-            Log.e(MY_LOG_TAG, string.toString())
+    fun showError(string: String, logTag: String, buildType: String) {
+        if (buildType.equals("DEBUG", ignoreCase = true)) {
+            Log.e(logTag, string)
+        }
+    }
+
+    fun showError(string: Int, buildType: String) {
+        if (buildType.equals("DEBUG", ignoreCase = true)) {
+            Log.e(DEFAULT_LOG_TAG, string.toString())
         }
     }
 
