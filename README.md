@@ -37,7 +37,7 @@ allprojects {
 }
 
 dependencies {
-        implementation 'com.github.MohsinaliEMed:AppUtilsLibrary:Tag'
+         implementation 'com.github.MohsinaliEMed:AppUtilsLibrary:1.0.1'
 }</pre></div>
 
 
