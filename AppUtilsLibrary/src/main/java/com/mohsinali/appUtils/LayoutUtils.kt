@@ -9,3 +9,6 @@ import android.os.Build
 import android.provider.MediaStore
 import java.io.File
 
+object LayoutUtils{
+
+}

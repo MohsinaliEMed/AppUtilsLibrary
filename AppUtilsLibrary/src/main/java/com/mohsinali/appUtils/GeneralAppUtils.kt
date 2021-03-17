@@ -10,30 +10,32 @@ import android.widget.EditText
 import android.widget.Toast
 import com.mohsinali.interfaces.AlertDialogListener
 
-fun appUpdateAvailable(context: Context, appPackageName: String, title: String, msg: String, positiveBtn: String) {
-    DialogUtil.showAlertDialogForEvent(
-            title,
-            msg,
-            positiveBtn,
-            "",
-            context,
-            object : AlertDialogListener {
-                override fun onAlertDialogEventChanged(isPositive: Boolean) {
-                    if (isPositive) {
+object GeneralAppUtils {
+    fun appUpdateAvailable(context: Context, appPackageName: String, title: String, msg: String, positiveBtn: String) {
+        DialogUtil.showAlertDialogForEvent(
+                title,
+                msg,
+                positiveBtn,
+                "",
+                context,
+                object : AlertDialogListener {
+                    override fun onAlertDialogEventChanged(isPositive: Boolean) {
+                        if (isPositive) {
 
-                        try {
-                            context.startActivity(
-                                    Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$appPackageName")))
-                        } catch (anfe: ActivityNotFoundException) {
-                            context.startActivity(
-                                    Intent(Intent.ACTION_VIEW,
-                                            Uri.parse("https://play.google.com/store/apps/details?id=$appPackageName")))
+                            try {
+                                context.startActivity(
+                                        Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=$appPackageName")))
+                            } catch (anfe: ActivityNotFoundException) {
+                                context.startActivity(
+                                        Intent(Intent.ACTION_VIEW,
+                                                Uri.parse(
+                                                        "https://play.google.com/store/apps/details?id=$appPackageName")))
+                            }
                         }
                     }
-                }
 
-            })
+                })
+    }
+
 }
-
-
 
