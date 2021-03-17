@@ -44,7 +44,19 @@ AppUtilsLibrary is a fast and efficient open source. Apputilus is a library with
 
 ```Kotlin
 // For a simple view for Check Network connection:
-
 isNetworkConnected(context,"Internet not connected")
 
+// For a simple image list we use Glide:
+ val imageView: ImageView = findViewById<View>(R.id.my_image_view) as ImageView
+ LayoutUtils.setImageView(mContext, ImageView,imgViewLoadUrl,R.drawable.loading_spinner,R.drawable.img_error)
+ 
+ // For Round Set Image
+ LayoutUtils.setImageViewRounded(mContext, ImageView,imgViewLoadUrl,R.drawable.loading_spinner,R.drawable.img_error)
+
+ // For show msg on Logcat
+ LogsUtils.showError(tagValues,tagName,buildType)
+ 
+ // For Tost Message
+ LogsUtils.showToast(context,"Hello World")
+ 
 ```
