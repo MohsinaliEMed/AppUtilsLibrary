@@ -43,7 +43,7 @@ allprojects {
 
 dependencies {
     implementation 'com.github.MohsinaliEMed:AppUtilsLibrary:1.0.1'
-    }
+}
  ```
 
 
