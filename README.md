@@ -1,28 +1,28 @@
 # AppUtilsLibrary
-AppUtilsLibrary is a fast and efficient open source. Apputilus is a library with many classes that we use regularly.
+AppUtilsLibrary is a fast and efficient open source. AppUtils is a library with many classes that we use regularly.
 
 
 <h2><a id="user-content-how-do-i-use-glide" class="anchor" aria-hidden="true" href="#how-do-i-use-glide"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Kotlin class:</h2>
 
 <ul>
 
-<li> CameraGalleryUtils</li>
-<li>  CompressFileUtils</li>
-<li>  FileHelperUtils</li>
-<li>  PermissionUtils</li>
-<li>  DialogUtil</li>
-<li>  EditTextUtils</li>
-<li>  GeneralAppUtils</li>
-<li>  IsEmpty</li>
-<li>  KeyBordUtils</li>
-<li>  LayoutUtils</li>
-<li>  LogsUtils</li>
-<li>  NetworkUtils</li>
-<li>  NotificationUtils</li>
-<li>  PreferenceUtils</li>
-<li>  RegularExpression</li>
-<li>  TextViewUtils</li>
-<li>  TimeUtil</li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/CameraGalleryUtils.kt">CameraGalleryUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/CompressFileUtils.kt">CompressFileUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/FileHelperUtils.kt"> FileHelperUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/PermissionUtils.kt"> PermissionUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/DialogUtil.kt"> DialogUtil</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/EditTextUtils.kt"> EditTextUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/GeneralAppUtils.kt">GeneralAppUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/IsEmpty.kt"> IsEmpty</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/KeyBordUtils.kt"> KeyBordUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/LayoutUtils.kt">  LayoutUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/LogsUtils.kt">  LogsUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/NetworkUtils.kt">  NetworkUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/NotificationUtils.kt"> NotificationUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/PreferenceUtils.kt"> PreferenceUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/ValidationUtils.kt"> ValidationUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/TextViewUtils.kt"> TextViewUtils</a></li>
+<li><a href="https://github.com/MohsinaliEMed/AppUtilsLibrary/blob/master/AppUtilsLibrary/src/main/java/com/mohsinali/appUtils/TimeUtil.kt"> TimeUtil</a></li>
 </ul>
 
 
@@ -69,3 +69,4 @@ dependencies {
  LogsUtils.showToast(context,"Hello World")
  
 ```
+# Work is going on....
