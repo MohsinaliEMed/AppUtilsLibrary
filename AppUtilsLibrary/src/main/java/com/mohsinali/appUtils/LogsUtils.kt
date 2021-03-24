@@ -18,6 +18,7 @@ object LogsUtils {
         }
     }
 
+
     fun showError(string: String, logTag: String, buildType: String) {
         if (buildType.equals("DEBUG", ignoreCase = true)) {
             Log.e(logTag, string)
